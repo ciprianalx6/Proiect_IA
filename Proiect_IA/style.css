@@ -1,0 +1,41 @@
+body{
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(247, 247, 247);
+}
+#header-home-page{
+    font-size: 75px;
+    color: black;
+    position: relative;
+}
+#p1{
+    font-size: 20px;
+    color: black;
+    position: relative;
+}
+#div-home-page{
+    position: relative;
+    padding: 15px 15px;
+    border-radius: 20%;
+    /*aici la before trebuie o imagine*/
+    &::before {
+        content: '';
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left:0px;
+        position: absolute;
+        background-image: url();
+        background-position: top center;
+        background-size: cover;
+        opacity: 0.55;
+    }
+}
+#header-istoric{
+    text-align: right;
+    font-size: 50px;
+}
+#p-istoric{
+    text-align: right;
+    font-size: 20px;
+}
