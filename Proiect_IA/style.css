@@ -39,3 +39,46 @@ body{
     text-align: right;
     font-size: 20px;
 }
+#div-metode{
+    overflow: auto;
+}
+#header-metode{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+#div-DBS{
+    float:left;
+    width: 35%;
+    height: 400px;
+    margin-right: 3px;
+    margin-left: 80px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 25px;
+    padding: 15px 15px;
+}
+#div-BCI{
+    float: right;
+    width: 35%;
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 3px;
+    background-color: #fefefe;
+    border-radius: 25px;
+    padding: 15px 15px;
+}
+#header1-DBS,#header1-BCI{
+    text-align: center;
+    font-size: 40px;
+}
+
+#header2-DBS,#header2-BCI{
+    text-align: center;
+    font-size: 30px;
+}
+#p-DBS, #p-BCI{
+    padding:25px 25px ;
+    font-size: 20px;
+    text-align: justify;
+    
+}
