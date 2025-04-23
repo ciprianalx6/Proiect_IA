@@ -41,6 +41,7 @@ body{
 }
 #div-metode{
     overflow: auto;
+    padding-bottom: 30px;
 }
 #header-metode{
     text-align: center;
@@ -81,4 +82,32 @@ body{
     font-size: 20px;
     text-align: justify;
     
+}
+
+
+#header1-rezultate{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.headerst{
+    text-align: left;
+    font-size: 40px;
+}
+.headerdr{
+    text-align: right;
+    font-size: 40px;
+}
+.p-st{
+    text-align: left;
+    font-size: 20px;
+    width: 60%;
+}
+.p-dr{
+    text-align: justify right;
+    font-size:20px;
+    width: 60%;
+    margin-left: 670px;
+
 }
