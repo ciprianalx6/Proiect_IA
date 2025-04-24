@@ -25,19 +25,32 @@ body{
         bottom: 0px;
         left:0px;
         position: absolute;
-        background-image: url();
+        background-image: url(images/home-modified.jpg);
         background-position: top center;
         background-size: cover;
-        opacity: 0.55;
+        opacity: 0.2;
     }
 }
 #header-istoric{
     text-align: right;
     font-size: 50px;
 }
-#p-istoric{
-    text-align: right;
+
+#div-istoric{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#div-istoric #p-istoric{
+    text-align: left !important;
     font-size: 20px;
+    margin: 0;
+}
+#img-istoric {
+    height: 300px;
+    width: 500px;
+    border-radius: 25px;
+    margin-top: 0px;
 }
 #div-metode{
     overflow: auto;
@@ -48,25 +61,74 @@ body{
     font-size: 50px;
     padding-bottom: 40px;
 }
-#div-DBS{
-    float:left;
+#div-DBS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
     width: 35%;
     height: 400px;
     margin-right: 3px;
     margin-left: 80px;
-    background-color: rgb(254, 254, 254);
+    padding: px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    
+}
+#div-DBS::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/dbi.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: 0;
     border-radius: 25px;
-    padding: 15px 15px;
+}
+
+#div-DBS > * {
+    position: relative;
+    z-index: 1;
 }
 #div-BCI{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     float: right;
     width: 35%;
     height: 400px;
     margin-right: 80px;
     margin-left: 3px;
-    background-color: #fefefe;
+    box-sizing: border-box;
     border-radius: 25px;
     padding: 15px 15px;
+}
+#div-BCI::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/bci.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; 
+    z-index: 0;
+    border-radius: 25px;
+}
+#div-BCI > * {
+    position: relative;
+    z-index: 1;
 }
 #header1-DBS,#header1-BCI{
     text-align: center;
