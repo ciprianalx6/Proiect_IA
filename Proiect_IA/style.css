@@ -3,13 +3,18 @@ body{
     margin-left: 25px;
     margin-right: 25px;
     background-color: rgb(247, 247, 247);
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
 }
 #header-home-page{
+    margin-left: 30px;
     font-size: 75px;
     color: black;
     position: relative;
+    margin-bottom: auto;
 }
 #p1{
+    margin-left: 30px;
     font-size: 20px;
     color: black;
     position: relative;
@@ -38,22 +43,28 @@ body{
 }
 
 #div-istoric{
+    margin: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     justify-items: right;
+    padding: 30px;
 }
 #div-istoric #p-istoric{
-    text-align: left !important;
+    text-align: right !important;
     font-size: 20px;
-    margin: 0;
-    margin-left: 20px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+#p-istoric{
+    padding-left: 80px;
 }
 #img-istoric {
     height: 300px;
     width: 500px;
     border-radius: 25px;
     margin-top: 0px;
+    padding-right: 20px;
 }
 #div-metode{
     overflow: auto;
@@ -76,7 +87,7 @@ body{
     justify-content: center;
     float: left;
     width: 600px;
-    height: 400px;
+    height: auto;
     
     padding: 20px;
     border-radius: 25px;
@@ -111,7 +122,7 @@ body{
     transition: opacity 0.5s ease;
 }
 #p-DBS, #p-BCI{
-    padding:0px 25px 0px 25px;
+    padding:10px 25px 10px 25px;
     font-size: 20px;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.7);
@@ -169,10 +180,12 @@ body{
     justify-content: center;
 }
 
-
+.div-rez{
+    margin: 60px;
+}
 .fim {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -182,21 +195,36 @@ body{
     display: flex;
     align-items: center;
     margin-left: auto; 
-    gap: 20px;
+    gap: 50px;
+    border-radius: 25px;
 }
+#a,#b, #c, #d, #e, #f {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    gap: 40px;
+    border-radius: 25px;
+    border: 2px solid rgba(229,25,34,255);
+    width: 150px;
+    
+}
+
 
 
 .butoane {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     width: 200px;
-    height: 50px;
-    font-size: 30px;
+    height: 40px;
+    font-size: 20px;
     font-weight: 500;
     background-color: rgb(247, 247, 247);
+    
+    border-width: 20px;
+    border-color:rgba(229,25,34,255);
     border-radius: 25px;
     color: black;
     text-decoration: none;
