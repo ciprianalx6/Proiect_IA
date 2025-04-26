@@ -1,3 +1,4 @@
+
 body{
     margin-left: 25px;
     margin-right: 25px;
@@ -86,31 +87,33 @@ body{
 }
 
 #div-DBS{
-background-image:url(images/dbi.jpg);
+    background-image:url(images/dbi.jpg);
+    margin-left: 200px;
 }
 #div-BCI{
     background-image: url(images/bci.jpg);
     background-position: center;
+    margin-right: 200px;
 }
 #header1-DBS,#header1-BCI{
     text-align: center;
     font-size: 40px;
     background-color: rgba(255, 255, 255, 0.7);
-     border-radius: 12px;
+    border-radius: 12px;
 }
 
 #header2-DBS,#header2-BCI{
     text-align: center;
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.7);
-     border-radius: 12px;
+    border-radius: 12px;
 }
 #p-DBS, #p-BCI{
     padding:0px 25px 0px 25px;
     font-size: 20px;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.7);
-     border-radius: 12px;
+    border-radius: 12px;
     
 }
 
@@ -141,3 +144,44 @@ background-image:url(images/dbi.jpg);
     margin-left: 670px;
 
 }
+#div-butoane{
+    display: flex;
+    justify-content: end;
+    margin-right: 75px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+}
+
+.butoane{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 200px;
+    background-color:rgb(247, 247, 247) ;
+    border-radius: 25px;
+    color:black;
+}
+.butoane{
+    transition: all 0.3s ease 0s;
+}
+.butoane:hover{
+    background-color: rgb(201, 197, 197);
+    
+}
+.fim{
+    padding-top: 20px;
+    position: absolute;
+    height: 125px;
+    width: 150px;
+    top: 0;
+    left: 20px;
+}
+
+
