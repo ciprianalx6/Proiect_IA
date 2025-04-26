@@ -8,14 +8,19 @@
     <title>Proiect IA</title>
 </head>
 <body>
-        <div id = "div-butoane"><!--aici trebuie adaugate butoane dupa ce terminam site-ul-->
-            <a href = "index.html"><img src ="images/fim.PNG"  class= "fim"></a>
-            <a href="index.html"><div class="butoane">Home</div></a>
-            <a href = "paginaistorie.html"><div class="butoane">Istorie</div></a>
-            <a href ="paginametode.html"><div class="butoane">Metode</div></a>
-            <a href = "paginarezultate.html"><div class="butoane">Rezultate</div></a>
-            <a href = "paginaviitor.html"><div class="butoane">Viitor</div></a>
+    <div id="div-butoane">
+        <a href="index.html" id="container-fim" class="container-fim">
+            <img src="images/fim.PNG" class="fim">
+        </a>
+        <div id="butoane-grup">
+            <a href="index.html" class="butoane">Home</a>
+            <a href="paginaistorie.html" class="butoane">Istorie</a>
+            <a href="paginametode.html" class="butoane">Metode</a>
+            <a href="paginarezultate.html" class="butoane">Rezultate</a>
+            <a href="paginaviitor.html" class="butoane">Viitor</a>
         </div>
+    </div>
+    <hr>
         <div id="div-home-page">
             <h1 id="header-home-page">
                 Ingineria Neurală și<br/> 
@@ -38,10 +43,9 @@
         <!--mai trebuie o imagine si sa formatam textul(paragraful)-->
         <hr/>
         <h1 id ="header-metode">Metode de Implementare</h1>
-        <div id = "div-metode">
+        <div id = "div-metode" class="div-metode">
            
-
-            <div id = "div-DBS"> 
+            <div class="div-DBS">
                 <h1 id="header1-DBS">Deep Brain Stimulation</h1>
                 <h3 id="header2-DBS">(DBS)</h3>  
                 <p id="p-DBS">DBS este o formă de terapie neurostimulatorie, în care un generator de impulsuri este implantat de către un chirurg sub pielea de pe piept si conectat prin cabluri  cu creierul, pentru a trimite impulsuri electrice controlate.
@@ -49,7 +53,7 @@
                 </p>
             </div>
 
-            <div id = "div-BCI">
+            <div id = "div-BCI" class="div-BCI">
                 <h1 id="header1-BCI">Brain-Computer Interface</h1>
                 <h3 id="header2-BCI">(BCI)</h3>  
                 <p id="p-BCI">Este o nouă tehnologie care realizează o conexiune directă între creier si un computer sau alt aparat extern. Spre deosebire de DBS, BCI oferă o libertate mai mare pacienților, prin îmbunătățirea sau înlocuirea capacitații de lucru periferic al omului.

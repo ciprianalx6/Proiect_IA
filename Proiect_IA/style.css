@@ -68,7 +68,7 @@ body{
     padding-bottom: 40px;
 }
 
-#div-DBS, #div-BCI {
+.div-DBS, #div-BCI {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -85,14 +85,14 @@ body{
     text-align: center;
     color: black;
 }
-
-#div-DBS{
-    background-image:url(images/dbi.jpg);
+.div-DBS{
+    background-image:url(images/dbs.jpg);
     margin-left: 200px;
+    background-size: cover;
 }
 #div-BCI{
     background-image: url(images/bci.jpg);
-    background-position: center;
+    background-size: cover;
     margin-right: 200px;
 }
 #header1-DBS,#header1-BCI{
@@ -100,6 +100,7 @@ body{
     font-size: 40px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
+    transition: opacity 0.5s ease;
 }
 
 #header2-DBS,#header2-BCI{
@@ -107,6 +108,7 @@ body{
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
+    transition: opacity 0.5s ease;
 }
 #p-DBS, #p-BCI{
     padding:0px 25px 0px 25px;
@@ -114,9 +116,20 @@ body{
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
+    transition: opacity 0.5s ease;
     
 }
 
+.div-DBS:hover h1,
+.div-DBS:hover h3,
+.div-DBS:hover p {
+    opacity:0;
+}
+.div-BCI:hover h1,
+.div-BCI:hover h3,
+.div-BCI:hover p {
+    opacity:0;
+}
 
 #header1-rezultate{
     text-align: center;
@@ -144,44 +157,53 @@ body{
     margin-left: 670px;
 
 }
-#div-butoane{
+#div-butoane {
     display: flex;
-    justify-content: end;
-    margin-right: 75px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    
+    align-items: center;
 }
 
-.butoane{
+
+#container-fim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fim {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+#butoane-grup {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    gap: 20px;
+}
+
+
+.butoane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    display: inline-block;
-    text-align: center;
-    margin-left: 30px;
-    width: 100px;
+    width: 200px;
     height: 50px;
     font-size: 30px;
     font-weight: 500;
-    width: 200px;
-    background-color:rgb(247, 247, 247) ;
+    background-color: rgb(247, 247, 247);
     border-radius: 25px;
-    color:black;
-}
-.butoane{
+    color: black;
+    text-decoration: none;
     transition: all 0.3s ease 0s;
 }
-.butoane:hover{
-    background-color: rgb(201, 197, 197);
-    
-}
-.fim{
-    padding-top: 20px;
-    position: absolute;
-    height: 125px;
-    width: 150px;
-    top: 0;
-    left: 20px;
-}
 
+.butoane:hover {
+    background-color: rgb(201, 197, 197);
+}
 
