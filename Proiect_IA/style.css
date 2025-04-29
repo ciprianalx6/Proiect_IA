@@ -1,4 +1,5 @@
 
+
 body{
     margin-left: 25px;
     margin-right: 25px;
@@ -135,6 +136,7 @@ body{
 .div-DBS:hover p {
     opacity:0;
 }
+
 .div-BCI:hover h1,
 .div-BCI:hover h3,
 .div-BCI:hover p {
@@ -234,3 +236,91 @@ body{
     background-color: rgb(201, 197, 197);
 }
 
+#header1-viitor{
+    text-align: center;
+    font-size: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+  }
+  .cell {
+    border: 3px solid black;
+    height: 600px;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #cell1{
+    background-image: url(images/optogenetica2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+  }
+  #p-viitor{
+    display: block;
+    width: 155px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: rgb(72, 141, 245);
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  #cell1:hover #p-viitor{
+    display: block;
+    position: relative;
+    top: 550px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  #cell2{
+    background-image: url(images/crioelectronica2.png);
+    background-size: cover;
+  }
+  #cell2:hover #p-viitor{
+    display: block;
+    position: relative;
+    top: 550px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  #cell3{
+    background-image: url(images/Inginerie\ Neurală\ și\ Biologie\ Sintetică.png);
+    background-size: cover;
+  }
+  #cell3:hover #p-viitor{
+    display: block;
+    position: relative;
+    top: 550px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  #cell4{
+    background-image: url(images/Comunicare\ între\ creiere.png);
+    background-size: cover;
+  }
+  #cell4:hover #p-viitor{
+    display: block;
+    position: relative;
+    top: 550px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+
+
+
+
+  
