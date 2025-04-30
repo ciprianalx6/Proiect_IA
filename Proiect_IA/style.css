@@ -70,8 +70,8 @@ body{
     overflow: auto;
     padding-bottom: 30px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 #header-metode{
     text-align: center;
@@ -79,11 +79,11 @@ body{
     padding-bottom: 40px;
 }
 
-.div-DBS, #div-BCI {
+.div-DBS, .div-BCI {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 600px;
     height: auto;
     padding: 20px;
@@ -92,19 +92,17 @@ body{
     box-sizing: border-box;
     text-align: center;
     color: black;
-}
-.spatiu{
-    margin:30px
+    backdrop-filter: blur(3px);
 }
 .div-DBS{
     background-image:url(images/dbs.jpg);
-    margin-left: 200px;
     background-size: cover;
+    margin-left: 80px;
 }
-#div-BCI{
+.div-BCI{
     background-image: url(images/bci.jpg);
     background-size: cover;
-    margin-right: 200px;
+    margin-right: 80px;
 }
 #header1-DBS,#header1-BCI{
     text-align: center;
