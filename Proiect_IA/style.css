@@ -80,21 +80,21 @@ body{
 }
 
 .div-DBS, #div-BCI {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    float: left;
     width: 600px;
     height: auto;
-    
     padding: 20px;
     border-radius: 25px;
     background-position: center;
     box-sizing: border-box;
     text-align: center;
     color: black;
+}
+.spatiu{
+    margin:30px
 }
 .div-DBS{
     background-image:url(images/dbs.jpg);
@@ -253,72 +253,59 @@ body{
     border-radius: 40px;
     padding: 20px;
     text-align: center;
-  }
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;   
+    transition: transform 0.3s ease;
+}
 
-  #cell1{
+.p-viitor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9); 
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #007bff;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cell:hover .p-viitor {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.92);
+    pointer-events: auto;
+    visibility: visible;
+    pointer-events: auto;
+}
+#cell1{
     background-image: url(images/optogenetica2.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 
   }
-  #p-viitor{
-    display: block;
-    width: 155px;
-    height: 30px;
-    font-size: 20px;
-    text-align: center;
-    color:white;
-    border-radius: 25px;
-    text-decoration: none;
-    background-color: rgb(72, 141, 245);
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-    bottom: 0px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
-  }
-  #cell1:hover #p-viitor{
-    display: block;
-    position: relative;
-    top: 550px;
-    opacity: 1;
-    transition: opacity 0.5s ease-in;
-  }
-  #cell2{
+#cell2{
     background-image: url(images/crioelectronica2.png);
     background-size: cover;
-  }
-  #cell2:hover #p-viitor{
-    display: block;
-    position: relative;
-    top: 550px;
-    opacity: 1;
-    transition: opacity 0.5s ease-in;
   }
   #cell3{
     background-image: url(images/Inginerie\ Neurală\ și\ Biologie\ Sintetică.png);
     background-size: cover;
   }
-  #cell3:hover #p-viitor{
-    display: block;
-    position: relative;
-    top: 550px;
-    opacity: 1;
-    transition: opacity 0.5s ease-in;
-  }
   #cell4{
     background-image: url(images/Comunicare\ între\ creiere.png);
     background-size: cover;
   }
-  #cell4:hover #p-viitor{
-    display: block;
-    position: relative;
-    top: 550px;
-    opacity: 1;
-    transition: opacity 0.5s ease-in;
-  }
+
 
 
 
