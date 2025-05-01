@@ -1,5 +1,6 @@
 
 
+
 body{
     margin-left: 25px;
     margin-right: 25px;
@@ -260,7 +261,7 @@ body{
 
 .p-viitor {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9); 
     opacity: 0;
@@ -305,7 +306,85 @@ body{
   }
 
 
+#header-footer{
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-weight: 1000;
 
+}
+.sociale{
+    display: flex;
+    gap:20px;
+    
+}
+.sociale a{
+    background-color: rgb(226, 219, 219);
+    padding: 1em;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+.sociale a svg{
+    height: 32px;
+}
+.sociale a::before{
+    content: attr(data-sociale);
+    position: absolute;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    transform: translateY(-30px) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
+}
+.sociale a:hover{
+    background-color: var(--accent-color);
+    fill:white;
+}
+.sociale a::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid var(--accent-color);
+    transform: translateY(0) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
+}
+.sociale a:hover::before{
+    transform: translateY(-65px) rotate(0);
+    opacity: 1;
+}
+.sociale a:hover::after{
+    transform: translateY(-42px) rotate(0);
+    opacity: 1;
+}
+#div-contact{
+    margin-top: 50px;
 
+}
+#p-contact{
+    font-size: 20px;
+    font-weight: 500;
+}
+#div-copyright{
+    position: absolute;
+    left:70%;
+    margin-top: -310px;
+}
+#header-final{
+    font-size: 40px;
+    font-weight: 750;
+}
 
   
