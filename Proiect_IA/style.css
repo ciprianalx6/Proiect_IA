@@ -1,6 +1,7 @@
 
 
 
+
 body{
     margin-left: 25px;
     margin-right: 25px;
@@ -208,28 +209,76 @@ body{
     width: 150px;
     
 }
-
-
-
 .butoane {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 1px;
     padding-bottom: 1px;
-    width: 200px;
+    width: 150px;
     height: 40px;
     font-size: 20px;
     font-weight: 500;
     background-color: rgb(247, 247, 247);
-    
-    border-width: 20px;
-    border-color:rgba(229,25,34,255);
+
+    border-width: 2px;
+    border-style: solid; 
+    border-color: rgba(229, 25, 34, 1);
     border-radius: 25px;
     color: black;
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
+
+#butoane-grup {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.butoane:hover {
+    background-color: #dcdcdc;
+}
+
+
+.dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 15px;
+    min-width: 130px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+}
+
+
+.dropdown-content a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
 
 .butoane:hover {
     background-color: rgb(201, 197, 197);
