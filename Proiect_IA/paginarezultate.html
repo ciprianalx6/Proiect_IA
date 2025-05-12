@@ -1,18 +1,444 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Rezultate</title>
-        <link rel="stylesheet" href="style_rez.css">
+        <title>Proiect IA</title>
+        <link rel="stylesheet" href="rezultate.css">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+
     </head>
     <body>
-
-        <div id = "div-butoane"><!--aici trebuie adaugate butoane dupa ce terminam site-ul-->
-            <a href = "index.html"><img src ="images/fim.PNG"  class= "fim"></a>
-            <a href="index.html"><div class="butoane">Home</div></a>
-            <a href = "paginaistorie.html"><div class="butoane">Istorie</div></a>
-            <a href ="paginametode.html"><div class="butoane">Metode</div></a>
-            <a href = "paginarezultate.html"><div class="butoane">Rezultate</div></a>
-            <a href = "paginaviitor.html"><div class="butoane">Viitor</div></a>
+        <div id="div-butoane">
+            <a href="index.html" id="container-fim" class="container-fim">
+                <img src="images/fim.PNG" class="fim">
+            </a>
+            <div id="butoane-grup">
+    
+                <a href="index.html" class="butoane" id="a">Home</a>
+                <a href="paginaistorie.html" class="butoane" id="b">Istorie</a>
+                <div class="dropdown">
+                    <a href="paginametode.html" class="butoane">Metode</a>
+                    <div class="dropdown-content">
+                        <a href="#">Deep-Brain Stimulation</a>
+                        <a href="#">Brain-Computer Interface</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="paginarezultate.html" class="butoane" id="d">Rezultate</a>
+                    <div class="dropdown-content">
+                        <a href="#">Interfețe Minim Invazive</a>
+                        <a href="#">Sisteme de Înregistrare neurală</a>
+                        <a href="#">Neuroproteze</a>
+                        <a href="#">Brain Stimulation for Movement Recovery</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="paginaviitor.html" class="butoane" id="e">Viitor</a>
+                    <div class="dropdown-content">
+                        <a href="#">Optogenetică</a>
+                        <a href="#">Crioelectronică</a>
+                        <a href="#">Biologie Sintetică</a>
+                        <a href="#">Brain-to-Brain Communication</a>
+                    </div>
+                </div>
+                
+            </div>
         </div>
+        <hr/>
+        <div class = "div-rezultate" id = "div-impar">
+            <h1 class = "header-rez">Interfețe neurale minim invazive</h1>
+            <p class = 'p'>Interfețele neurale minim invazive (INMI) sunt tehnologii care permit 
+                interacțiunea directă între creier și computere sau alte dispozitive externe, cu intervenții 
+                chirurgicale minime sau fără a penetra direct țesutul cerebral. Ele sunt un subdomeniu al interfețelor 
+                creier-computer (brain-computer interfaces – BCI), având ca scop obținerea unui echilibru între performanță și siguranță.
+            </p>
+            <img src = "images/interfata neurala minim invazica.jpg" class = "img" />
+
+            <div id="div-caracteristici">
+                <h1 id ="header-carac">Caracteristici </h1>
+                <hr/>
+                <div id="divmare">
+                    <div class="subdiv-carac" id ="div1">
+                        <h2>Risc redus de complicații</h2>
+                        <p>Recuperare postoperatorie mai rapidă.
+                            <br/>
+                            <br/>
+                            Se utilizează metode precum:
+                            <br/>
+                            <br/>
+                            &rarr;Acces vascular (ex: prin vena jugulară pentru Stentrode).
+                            <br/>
+                            <br/>
+                            &rarr;Electrozi plasați pe dura mater sau cortexul superficial (ex: ECoG subdurale).
+                            <br/>
+                            <br/>
+                            &rarr;Sisteme purtate extern, cu conexiuni limitate interne.
+                        </p>
+                    </div>
+                    <div class="subdiv-carac">
+                        <h2>Acces indirect la creier</h2>
+                        <p>Nu necesită craniotomie (deschiderea craniului).
+                            <br/>
+                            <br/>
+                            Scade riscul de:
+                            <br/>
+                            <br/>
+                            &rarr;Infecții intracraniene
+                            <br/>
+                            <br/>
+                            <b>&rarr;</b>Hemoragii cerebrale
+                            <br/>
+                            <br/>
+                            &rarr;Leziuni neuronale directe
+                        </p>
+                    </div>
+                    <div class="subdiv-carac">
+                        <h2>Integrare cu AI și software de decodare</h2>
+                        <p>Se bazează pe algoritmi de învățare automată pentru a traduce semnalele neuronale în comenzi digitale
+                            <br/>
+                            <br/>
+                            <br/>
+                        
+                            Pot învăța în timp comportamentele utilizatorului pentru o interacțiune mai precisă.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class = div-aplicatii>
+                    
+                    <h1 id = "header-aplicatii">Aplicații</h1>
+                    
+                    <div class="subdiv-aplicatii1">
+                        <h2 id="header-aplicatii1">Restaurarea comunicării la pacienți paralizați</h2>
+                        
+                        <p class="p-aplicatii-impar">Pacienții cu scleroză laterală amiotrofică (ALS), accidente vasculare cerebrale, sau traumatisme medulare își pot pierde capacitatea de a vorbi sau mișca. Interfețele neurale minim invazive pot:
+                            <br/>
+                            <br/>
+                            &rarr;Detecta intențiile motorii sau semnalele corticale legate de vorbire.
+                            <br/>
+                            &rarr;Traduce aceste semnale în comenzi pentru un sintetizator vocal sau un sistem de tastare virtuală (ex: scriere pe ecran doar prin gând).
+                            <br/>
+                            &rarr;Ex: Tehnologia Stentrode de la Synchron permite pacienților tetraplegici să trimită mesaje text sau să navigheze pe internet prin gândire.
+                        </p>
+
+                    </div>
+                    <br/>
+                    <div class="subdiv-aplicatii2">
+                        <h2 id="header-aplicatii2">Stimulare cerebrală neinvazivă adaptivă</h2>
+                        <p class="p-aplicatii-par">INMI pot fi combinate cu tehnologii precum stimularea transcraniană cu curent direct (tDCS) sau magnetică (TMS).<br/><br/>
+                            Monitorizarea activității neuronale permite adaptarea în timp real a parametrilor de stimulare pentru tratamente personalizate (ex: în depresie sau durere cronică).
+                        </p>
+                    </div>
+                    <br/>
+                    <div class="subdiv-aplicatii3">
+                        <h2 id="header-aplicatii3"> Boala Parkinson și alte tulburări motorii</h2>
+                        <p class="p-aplicatii-impar">În forme mai avansate de Parkinson, interfețele pot monitoriza ritmurile neuronale asociate mișcărilor involuntare.
+                            <br/>
+                            <br/>
+                            Pot fi combinate cu stimulare cerebrală profundă (DBS), dar cu o abordare mai puțin invazivă.
+                            <br/>
+                            <br/>
+                            Permite reglajul fin al terapiei în timp real, fără intervenție chirurgicală profundă.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class= "div-rezultate" id ="div-rezultate2">
+            <h1 class="header-rez">Sisteme de Înregistrare neurală</h1>
+            <p class= "p">Sistemele de înregistrare neurală sunt componente esențiale ale interfețelor creier-computer și ale cercetării neurologice, fiind utilizate pentru a capta activitatea electrică sau metabolică a creierului. Aceste sisteme variază în funcție de nivelul de invazivitate, 
+                rezoluția semnalului și scopul aplicației (cercetare, diagnostic sau control de dispozitive).
+            </p>
+            <img src = "images/neural recording.png" id=  "img2"/>
+            <div id="div-tipuri">
+                <h1 id="header-tipuri">Tipuri de Sisteme</h1>
+                <hr/>
+                <div id="tip1">
+                    <h2 id="titlu-tip">Non-Invazive</h2>
+                    <div id="container-tip1">
+                        <div id="j11">
+                            <b>EEG (electroencefalografie):</b>
+                            <br/>
+                            <br/>
+                            &rarr;Captează activitate electrică de la suprafața scalpului
+                            <br/>
+                            <br/>
+                            &rarr;Siguranță ridicată, portabil, dar cu rezoluție spațială redusă.
+                            <br/>
+                            <br/>
+                            &rarr;Folosit în: diagnostic epilepsie, somn, BCI simple (ex: jocuri, control scaun rulant)
+                        </div>
+                        <div id="j11">
+                            <b>fNIRS (spektroscopie în infraroșu apropiat):</b>
+                            <br/>
+                            <br/>
+                            &rarr;Măsoară modificări în oxigenarea sângelui cerebral
+                            <br/>
+                            <br/>
+                            &rarr;Non-invaziv, dar lent (rezoluție temporală scăzută)
+                            <br/>
+                            <br/>
+                            &rarr;Util în cercetare și evaluarea funcțională
+                        </div>
+                        <div id="j11">
+                            <b>MEG (magnetoencefalografie):</b>
+                            <br/>
+                            <br/>
+                            &rarr;Detectează câmpuri magnetice generate de activitatea neuronală.
+                            <br/>
+                            <br/>
+                            &rarr;Precizie mare, dar echipamente costisitoare și fixe
+                            <br/>
+                            <br/>
+                            &rarr;Foarte precis în localizarea sursei semnalului neuronal
+                        </div>
+                    </div>
+
+                </div>
+                <hr/>
+                <div id ='tip1'>
+                    <h2 id="titlu-tip2">Minim-Invazive</h2>
+                    <div id="container-tip1">
+                        <div id="j11">
+                            <b>ECoG (electrocorticografie):</b>
+                            <br/>
+                            <br/>
+                            &rarr;Electrozi plasați direct pe cortex, dar sub craniu
+                            <br/>
+                            <br/>
+                            &rarr;Rezoluție spațială mai bună decât EEG
+                            <br/>
+                            <br/>
+                            &rarr;Folosită în chirurgia epilepsiei și cercetări BCI avansate
+                        </div>
+                        <div id="j11">
+                            <b>Stentrode / dispozitive intravasculare:</b>
+                            <br/>
+                            <br/>
+                            &rarr;Introduse prin vasele de sânge (jugulară către cortex motor)
+                            <br/>
+                            <br/>
+                            &rarr;Nu necesită deschiderea craniului
+                            <br/>
+                            <br/>
+                            &rarr;Permite controlul de dispozitive prin gândire la pacienți paralizați
+                        </div>
+
+                        <div id="j11">
+                            <b>Integrare cu dispozitive implantabile wireless</b>
+                            
+                            
+                            <br/>
+                            &rarr;Multe dintre aceste sisteme moderne (ex: Stentrode) sunt concepute pentru a funcționa wireless, ceea ce reduce riscul de infecții și permite o viață mai normală pentru pacient.
+                            <br/>
+                            <br/>
+                            &rarr;Permite monitorizare și control la distanță, inclusiv din mediul casnic
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div id="tip1">
+                    <h2 id="titlu-tip3">Invazive</h2>
+                    <div id="container-tip1">
+                        <div id="j11">
+                            <b>Microelectrozi intracorticali (ex: Utah array):</b>
+                            <br/>
+                            <br/>
+                            &rarr;Înregistrează semnale de la un singur neuron sau grupuri mici
+                            <br/>
+                            <br/>
+                            &rarr;Rezoluție foarte înaltă (spatială și temporală)
+                            <br/>
+                            <br/>
+                            &rarr;Folosit în cercetări de neuroștiință și în BCI de control fin al membrelor robotice
+                        </div>
+                        <div id="j11">
+                            <b>Neuropixels:</b>
+                            <br/>
+                            <br/>
+                            &rarr;Dispozitive avansate, subțiri, ce pot înregistra simultan de la sute de neuroni
+                            <br/>
+                            <br/>
+                            &rarr;Utilizate în cercetare, nu încă aplicate clinic pe scară largă
+                            
+                        </div>
+                        <div id="j11">
+                            <b>Acces la activitate neuronală profundă și specifică</b>
+                            <br/>
+                            <br/>
+                            &rarr;Pot fi poziționate în regiuni adânci ale creierului (ex: hipocamp, ganglioni bazali) pentru a înregistra semnale neuronale critice care nu pot fi accesate cu alte metode
+                            <br/>
+                            <br/>
+                            &rarr;Această capacitate este esențială pentru tratamentul bolilor neurologice complexe, precum epilepsia refractară sau boala Parkinson
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+           
+        </div>
+        <div  class= "div-rezultate" id ="div-rezultate2">
+            <h1 class="header-rez">Neuroproteze</h1> 
+            <p class="p">Neuroprotezele sunt dispozitive biomedicale care înlocuiesc, restabilesc sau îmbunătățesc funcțiile sistemului nervos, afectate de boli, traume sau dizabilități. Ele pot interacționa cu creierul, măduva spinării sau nervii periferici pentru a 
+                oferi control asupra membrelor, simțurilor sau funcțiilor interne.
+            </p>
+            <img src ="images/neuroproteze.png" id="img3">
+            <h1 id="header-tipuri3">Tipuri de Neuroproteze</h1>
+            <div class="tipuri-3">
+                
+                <div class="container-tipuri3">
+                    <div id="k11">
+                        <b id ="titlu3">Neuroproteze motorii</b>
+                        <br/>
+                        <br/>
+                        <b>Scop: </b><br/>
+                        &rarr;Restaurarea mișcării la persoane paralizate sau amputate
+                        <br/><br/>
+                        <b>Exemple: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Brațe robotizate controlate de creier (prin BCI)<br/><br/>
+                        &rarr;Exoschelete pentru mers asistat la pacienți cu leziuni medulare<br/><br/>
+                        &rarr;Sisteme cu stimulare electrică funcțională (FES) pentru mușchi<br/><br/>
+                    </div>
+                    <div id="k11">
+                        <b id ="titlu3">Neuroproteze senzoriale</b>
+                        <br/>
+                        <br/>
+                        <b>Scop: </b><br/>
+                        &rarr; Restaurarea simțurilor pierdute, precum vederea sau auzul
+                        <br/><br/>
+                        <b>Exemple: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Implant cohlear – redă auzul prin stimularea nervului auditiv<br/><br/>
+                        &rarr;Proteze vizuale – implanturi retiniene sau corticale pentru pacienți cu orbire<br/><br/>
+                        &rarr;Sisteme de feedback haptic în proteze, pentru a simți presiune sau texturi<br/><br/>
+                    </div>
+                    <div id="k11">
+                        <b id ="titlu3">Neuroproteze cognitive</b>
+                        <br/>
+                        <br/>
+                        <b>Scop: </b><br/>
+                        &rarr; Ajută pacienții să comunice sau să interacționeze cu tehnologia
+                        <br/><br/>
+                        <b>Exemple: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Sisteme BCI care permit scrierea sau vorbirea prin gând<br/><br/>
+                        &rarr;Interfețe neuronale pentru pacienți cu locked-in syndrome sau SLA<br/><br/>
+                        
+                    </div>
+                    <div id="k11">
+                        <b id ="titlu3">Neuroproteze autonome</b>
+                        <br/>
+                        <br/>
+                        <b>Scop: </b><br/>
+                        &rarr;  Reglarea automată a funcțiilor interne afectate de disfuncții nervoase
+                        <br/><br/>
+                        <b>Exemple: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Stimulatoare ale nervului vag pentru epilepsie sau depresie<br/><br/>
+                        &rarr;Neuroproteze vezicale pentru controlul urinării<br/><br/>
+                        &rarr;Dispozitive pentru controlul tensiunii arteriale sau funcției gastrointestinale<br/><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class= "div-rezultate" id ="div-rezultate2">
+            <h1 class="header-rez">Brain Stimulation for Movement Recovery</h1> 
+            <p class="p">Brain stimulation for movement recovery este o tehnică promițătoare folosită în reabilitarea neurologică, care presupune aplicarea de stimulare electrică sau magnetică asupra creierului pentru a restabili sau îmbunătăți controlul motor după accidente vasculare cerebrale, leziuni ale măduvei 
+                spinării sau alte afecțiuni neurologice.
+            </p>
+            <img src ="images/brainstim.png" id="img4">
+            <h1 id="header-tipuri3">Tipuri de stimulare cerebrală</h1>
+            <div class="tipuri-3">
+                
+                <div class="container-tipuri3">
+                    <div id="k11">
+                        <b id ="titlu3">Stimulare magnetică transcraniană (TMS)</b>
+                        <br/><br/>
+                        <b>Caracteristici: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Non-invazivă, utilizează câmpuri magnetice pentru a activa sau inhiba anumite zone corticale<br/><br/>
+                        &rarr;Aplicată frecvent pe cortexul motor primar pentru a reactiva circuite afectate<br/><br/>
+                        &rarr;Folosită în faza acută sau cronică post-AVC<br/><br/>
+                    </div>
+                    <div id="k11">
+                        <b id ="titlu3"> Stimulare transcraniană cu curent direct (tDCS)</b>
+                        <br/><br/>
+                        <b>Caracteristici: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Implică aplicarea de curent electric slab (1–2 mA) între doi electrozi plasați pe scalp<br/><br/>
+                        &rarr;Modifică excitabilitatea corticală: anodul stimulează, catodul inhibă <br/><br/>
+                        &rarr;Poate crește eficiența terapiei fizice sau logopedice<br/><br/>
+                    </div>
+                    <div id="k11">
+                        <b id ="titlu3">Stimulare cerebrală profundă (DBS)</b>
+                        <br/><br/>
+                        <b>Caracteristici: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Invazivă, implică implantarea de electrozi în regiuni profunde (ex: ganglioni bazali)<br/><br/>
+                        &rarr;Utilizată în boala Parkinson, distonie, tremor esențial<br/><br/>
+                        &rarr;Poate îmbunătăți controlul motor sever afectat<br/><br/>
+                        
+                    </div>
+                    <div id="k11">
+                        <b id ="titlu3">Stimulare epidurală sau corticală directă</b>
+                        <br/><br/>
+                        <b>Caracteristici: </b>
+                        <br/>
+                        <br/>
+                        &rarr;Electrozi implantați la suprafața cortexului motor<br/><br/>
+                        &rarr;Activează circuite motorii în paralizie spinală sau după AVC sever<br/><br/>
+                        &rarr;Uneori combinată cu terapie intensivă sau BCI<br/><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <footer class = 'footer'>
+        <div>
+            <h1 id = header-footer>Ne puteți găsi pe:</h1>
+        </div>
+        <div class = "sociale">
+            <a data-sociale = "Youtube" style = "--accent-color:red;" href = "https://www.youtube.com/" target="_blank">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a data-sociale = "Twitter" style = "--accent-color:black;" href = "https://x.com/" target="_blank">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+            </a>
+            <a data-sociale = "Facebook" style = "--accent-color:blue;" href = "https://www.facebook.com/" target="_blank">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+            </a>
+            <a data-sociale = "Instagram" style = "--accent-color:pink;" href = "https://www.instagram.com/" target="_blank">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+            </a>
+            <a data-sociale = "TikTok" style = "--accent-color:black;" href = "https://www.tiktok.com/en/" target="_blank">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+        </div>
+        <div id="div-contact">
+            <p id = "p-contact">
+                <b>Email: inginerieneurala.bussiness@gmail.com<br/>
+                Telefon: +40-712-345-678
+                </b>
+            </p>
+        </div>
+        <div id = "div-copyright">
+            <h1 id = "header-final">
+                Ingineria Neurală și<br />
+                Interfețe Creier-Computer
+            </h1>
+            <h3>Copyright &copy 2025 - Universitatea Politehnica București</h3>
+        </div>
+    </footer>
+
     </body>
 </html>
