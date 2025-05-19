@@ -1,0 +1,324 @@
+body{
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(247, 247, 247);
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    overflow-y: scroll;
+}
+#div-butoane {
+    display: flex;
+    align-items: center;
+}
+
+
+#container-fim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-rez{
+    margin: 60px;
+}
+.fim {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+#butoane-grup {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    gap: 50px;
+    border-radius: 25px;
+}
+#a,#b, #c, #d, #e, #f {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    gap: 40px;
+    border-radius: 25px;
+    border: 2px solid rgba(229,25,34,255);
+    width: 150px;
+    
+}
+.butoane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(247, 247, 247);
+
+    border-width: 2px;
+    border-style: solid; 
+    border-color: rgba(229, 25, 34, 1);
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+#butoane-grup {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.butoane:hover {
+    background-color: #dcdcdc;
+}
+
+
+.dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 15px;
+    min-width: 130px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+    
+}
+
+
+.dropdown-content a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+
+.butoane:hover {
+    background-color: rgb(201, 197, 197);
+}
+#header-footer{
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-weight: 1000;
+
+}
+.sociale{
+    display: flex;
+    gap:20px;
+    
+}
+.sociale a{
+    background-color: rgb(226, 219, 219);
+    padding: 1em;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+.sociale a svg{
+    height: 32px;
+}
+.sociale a::before{
+    content: attr(data-sociale);
+    position: absolute;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    transform: translateY(-30px) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
+}
+.sociale a:hover{
+    background-color: var(--accent-color);
+    fill:white;
+}
+.sociale a::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid var(--accent-color);
+    transform: translateY(0) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
+}
+.sociale a:hover::before{
+    transform: translateY(-65px) rotate(0);
+    opacity: 1;
+}
+.sociale a:hover::after{
+    transform: translateY(-42px) rotate(0);
+    opacity: 1;
+}
+#div-contact{
+    margin-top: 50px;
+
+}
+#p-contact{
+    font-size: 20px;
+    font-weight: 500;
+}
+#div-copyright{
+    position: absolute;
+    left:70%;
+    margin-top: -310px;
+}
+#header-final{
+    font-size: 40px;
+    font-weight: 750;
+}
+
+#div-mare{
+    background-color: rgb(239,239,239);
+    height: 2770px;
+    border-radius: 25px;
+}
+#div-imagine11{
+    position: absolute;
+    right:40px;
+    height: 420px;
+    width: 40%;
+    margin-top: 30px;
+    background-image: url(images/opt2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    box-shadow: 10px 10px 10px rgba(143, 143, 143, 0.486);
+    border-radius: 25px;
+
+    
+}
+#header-div11{
+    color:white;
+}
+#div12{
+    position: absolute;
+    left:5%;
+    width: 50%;
+    margin-top: 40px;
+}
+.paragraf{
+    font-size: 20px;
+}
+#div2{
+    padding: 100px 100px;
+    height: 750px;
+    border-top:300px ;
+}
+#div-imagine22{
+    padding: 50px 50px;
+    position: absolute;
+    top:70%;
+    left:25px;
+    height: 550px;
+    width: 50%;
+    margin-top: 30px;
+    background-image: url(images/cryo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(143, 143, 143, 0.486);
+    border-radius:0 15em 15em 0;
+    background-position: 0px 0px;
+    
+}
+#div22{
+    position: absolute;
+    right: 3%;
+    top: 73%;
+    width: 700px;
+}
+.x{
+    font-size: 25px;
+}
+#div3{
+    padding: 100px 100px;
+    height: 750px;
+    border-top:300px ;
+}
+#div-imagine33{
+    position: absolute;
+    right:40px;
+    height: 500px;
+    width: 40%;
+    top:1450px;
+    margin-top: 30px;
+    background-image: url(images/sb.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(143, 143, 143, 0.486);
+    border-radius: 25px;
+}
+#div33{
+    position: absolute;
+    left:5%;
+    width: 50%;
+    margin-top: 40px;
+    top:1450px;
+}
+.y{
+    font-size:22px
+}
+#div4{
+    padding: 100px 100px;
+    height: 750px;
+    border-top:300px ;
+}
+#div-imagine44{
+    padding: 50px 50px;
+    position: absolute;
+    top:2100px;
+    left:25px;
+    height: 550px;
+    width: 50%;
+    margin-top: 30px;
+    background-image: url(images/b2b.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(143, 143, 143, 0.486);
+    border-radius:0 15em 15em 0;
+    background-position: 0px 0px;
+}
+#div44{
+    position: absolute;
+    right: 3%;
+    top: 2120px;
+    width: 700px;
+}
+
+
+
