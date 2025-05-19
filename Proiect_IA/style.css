@@ -1,7 +1,3 @@
-
-
-
-
 body{
     margin-left: 25px;
     margin-right: 25px;
@@ -44,24 +40,40 @@ body{
     text-align: right;
     font-size: 50px;
 }
-
-#div-istoric{
-    margin: 60px;
+#div-istoric {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    justify-items: right;
-    padding: 30px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    background-position: center;
+    box-sizing: border-box;
+    text-align: right;
+    color: black;
+    backdrop-filter: blur(3px);
 }
+
+#div-istoric img{
+    height: auto;
+    width: 30vw;
+}
+
+#div-istoric-text{
+    font-size: 40px;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+}
+
 #div-istoric #p-istoric{
-    text-align: right !important;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
     font-size: 20px;
-    margin-right: 0px;
-    margin-left: 80px;
 }
-#p-istoric{
-    padding-left: 80px;
-}
+
+
 #img-istoric {
     height: 300px;
     width: 500px;
@@ -74,6 +86,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
 }
 #header-metode{
     text-align: center;
@@ -85,9 +98,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     width: 600px;
-    height: auto;
+ height:100vh; 
     padding: 20px;
     border-radius: 25px;
     background-position: center;
@@ -95,6 +108,8 @@ body{
     text-align: center;
     color: black;
     backdrop-filter: blur(3px);
+    margin: 20px;
+
 }
 .div-DBS{
     background-image:url(images/dbs.jpg);
@@ -163,11 +178,9 @@ body{
     width: 60%;
 }
 .p-dr{
-    text-align: justify right;
-    font-size:20px;
-    width: 60%;
-    margin-left: 670px;
-
+    text-align: left;
+    font-size: 20px;
+   
 }
 #div-butoane {
     display: flex;
@@ -184,6 +197,11 @@ body{
 .div-rez{
     margin: 60px;
 }
+
+#div2-rezultate{
+    margin-left: 50vw;
+}
+
 .fim {
     width: 80px;
     height: 80px;
@@ -259,7 +277,6 @@ body{
     z-index: 1;
     flex-direction: column;
 }
-
 
 .dropdown-content a {
     padding: 10px 15px;
@@ -437,3 +454,163 @@ body{
 }
 
   
+
+@media screen and (max-width: 960px) {
+  
+
+    #header-home-page {
+        font-size: 50px;
+        margin-left: 15px;
+    }
+
+    #p1 {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    #div-home-page {
+        padding: 10px;
+        border-radius: 10%;
+    }
+
+    #header-istoric {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #div-istoric {
+        margin: 30px;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #div-istoric img {
+        width: 80%;
+    }
+    #div-istoric-text {
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+  .div-rez{
+
+        width: 90%;
+        height: auto;
+    }
+
+
+    #img-istoric {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    #div-metode {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .div-DBS, .div-BCI {
+        width: 90%;
+        height: 70vh;
+        margin: 10px 0;
+    }
+
+    #header1-DBS, #header1-BCI, #header2-DBS, #header2-BCI {
+        font-size: 30px;
+    }
+
+    #p-DBS, #p-BCI {
+        font-size: 16px;
+    }
+
+
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .p-dr{
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+    }
+    .p-st{
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .headerdr{
+        text-align: center;
+        font-size: 30px;
+    }
+    .headerst{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #header1-rezultate {
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+#div1-rezultate, #div2-rezultate, #div3-rezultate, #div4-rezultate { 
+   
+        margin: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .cell {
+        height: 400px;
+    }
+
+    .p-viitor {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    #butoane-grup {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .butoane {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .sociale {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #div-contact {
+        margin-top: 30px;
+    }
+
+    #p-contact {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #div-copyright {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
