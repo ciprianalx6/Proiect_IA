@@ -178,20 +178,7 @@ body{
     text-align: left;
 }
 .linie-istorie{
-    width: 20px;
-}
-
-.termen-BCI{
-     text-align: left;
-        font-size: 50px;
-       font-weight: bold;
-       margin-bottom: 20px;
-}
-.termen-BCI{
-    margin-right: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 0%;;
 }
 .jac{
     width: 17%;
@@ -201,7 +188,7 @@ body{
 }
 
 @media screen and (max-width: 960px) {
-#butoane-grup {
+    #butoane-grup {
         flex-direction: column;
         gap: 20px;
     }
