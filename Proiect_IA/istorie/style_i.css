@@ -167,6 +167,7 @@ body{
        margin-bottom: 20px;
 }
 #inceputuri{
+    font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -322,7 +323,7 @@ body{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 25px;
+        font-size: 22px;
     }
     .butoane {
         width: 100%;
