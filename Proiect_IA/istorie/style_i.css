@@ -31,8 +31,6 @@ body{
 #div-butoane {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    margin-top:15px;
 }
 
 
@@ -55,10 +53,9 @@ body{
 
 #butoane-grup {
     display: flex;
+    gap: 40px;
     align-items: center;
-    margin-left: auto; 
-    gap: 50px;
-    border-radius: 25px;
+    margin-left: auto;
 }
 #a,#b, #c, #d, #e, #f {
     display: flex;
