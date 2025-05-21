@@ -275,7 +275,7 @@ body{
     margin-top: -200px;
 }
 #header-final{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 750;
 }
 
@@ -366,7 +366,7 @@ body{
         flex-shrink: 0;
         display: grid;
         place-items: center;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); /* Ajustează umbra */
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); 
     }
     
     .sociale a svg {
