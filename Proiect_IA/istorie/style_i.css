@@ -1,3 +1,4 @@
+
 body{
     margin-left: 25px;
     margin-right: 25px;
@@ -278,6 +279,48 @@ body{
     font-size: 30px;
     font-weight: 750;
 }
+#xx{
+    display: none;
+    position: absolute;
+    right:  10px;
+    top:-2px;
+    display: block;
+    width: 200px;
+    height: 450px;
+    border-radius: 25px;
+    transition: 0.5s ease;
+    
+}
+#imgx{
+    position: absolute;
+    right: 10px;
+    top:1%;
+    display: block;
+    width: 80px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+#xx a {
+text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+display: none;
+flex-direction: column;
+position: relative;
+right: -30px;
+top:80px;
+font-size: 30px;
+width: 150px;
+border-radius: 25px;
+
+}
+
 
 @media screen and (max-width: 960px) {
     .img-istorie {
@@ -311,10 +354,30 @@ body{
     text-align: center;
     font-size: 20px;
 }
-
-    #butoane-grup {
+    
+    
+    #butoane-grup{
+        display: none;
         flex-direction: column;
         gap: 20px;
+        position: relative;
+        top:33px;
+    }
+    
+    
+    #xx:hover {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top:-2px;
+        background-color: rgba(238, 238, 238, 0.8);
+    }
+    #xx:hover a{
+        display: flex;
+        flex-direction: column;
+    }
+    #xx a:hover{
+        background-color: rgb(204, 204, 204);
     }
 .header-istorie1{
     margin-left:0px;
@@ -334,6 +397,7 @@ body{
         text-align: center;
         font-size: 22px;
     }
+    
     .butoane {
         width: 100%;
         font-size: 16px;
@@ -389,4 +453,3 @@ body{
     
     }
 }
-
