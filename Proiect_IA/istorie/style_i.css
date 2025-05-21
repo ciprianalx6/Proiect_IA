@@ -292,10 +292,11 @@ body{
     
 }
 #imgx{
+    
     position: absolute;
     right: 10px;
     top:1%;
-    display: block;
+    display: none;
     width: 80px;
         height: 90px;
         border-radius: 50%;
@@ -364,7 +365,9 @@ border-radius: 25px;
         top:33px;
     }
     
-    
+    #imgx{
+        display: block;
+    }
     #xx:hover {
         display: block;
         position: absolute;
