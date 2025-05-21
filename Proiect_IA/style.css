@@ -278,6 +278,7 @@ body{
     flex-direction: column;
 }
 
+
 .dropdown-content a {
     padding: 10px 15px;
     text-decoration: none;
@@ -300,6 +301,7 @@ body{
 .butoane:hover {
     background-color: rgb(201, 197, 197);
 }
+
 
 #header1-viitor{
     text-align: center;
@@ -459,7 +461,7 @@ body{
   
 
     #header-home-page {
-        font-size: 30px;
+        font-size: 50px;
         margin-left: 15px;
     }
 
