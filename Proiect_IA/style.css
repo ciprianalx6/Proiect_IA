@@ -456,10 +456,79 @@ body{
     font-weight: 750;
 }
 
-  
+  #xx{
+    display: none;
+    position: absolute;
+    right:  10px;
+    top:-2px;
+    display: block;
+    width: 143px;
+    height: 350px;
+    border-radius: 25px;
+    transition: 0.5s ease;
+    margin:2px;
+    
+}
+#imgx{
+    position: absolute;
+    right: 10px;
+    top: 5%;
+    display: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#xx a {
+text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-decoration: none;
+color: black;
+display: none;
+flex-direction: column;
+position: relative;
+right: -20px;
+top:80px;
+font-size: 14px;
+width: 100px;
+border-radius: 25px;
+
+}
 
 @media screen and (max-width: 960px) {
-  
+   
+  #xx:hover {
+    z-index: 10;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top:-2px;
+        background-color: rgba(238, 238, 238, 0.9);
+        transform: 0.4s ;
+        
+    }
+    #imgx{
+        display: block;
+    }
+    #xx:hover a{
+        display: flex;
+          justify-content:  center;
+        flex-direction: column;
+        border:1px solid red;
+    }
+    #xx a:hover{
+        background-color: rgba(204, 204, 204, 0.9);
+    }
+ .fim{
+        margin-top: 13px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
 
     #header-home-page {
         font-size: 50px;
@@ -595,6 +664,11 @@ body{
     .butoane {
         font-size: 16px;
     }
+    hr {
+    border: 1px solid #333;
+    height: 0;
+    margin: 20px 0;
+}
 
     .sociale {
         
@@ -613,6 +687,13 @@ body{
     #p-contact {
         font-size: 12px;
         text-align: center;
+    }
+    #butoane-grup{
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        top:33px;
     }
     .sociale a {
         background-color: rgb(226, 219, 219);

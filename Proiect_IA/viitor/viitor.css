@@ -214,7 +214,7 @@ body{
     height: 420px;
     width: 40%;
     margin-top: 30px;
-    background-image: url(images/opt2.png);
+    background-image: url(../images/opt2.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -247,8 +247,7 @@ body{
     left:25px;
     height: 550px;
     width: 50%;
-    margin-top: 30px;
-    background-image: url(images/cryo.png);
+    margin-top: 30px;background-image: url(../images/cryo.png);
     background-size:cover;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(143, 143, 143, 0.486);
@@ -277,7 +276,7 @@ body{
     width: 40%;
     top:1450px;
     margin-top: 30px;
-    background-image: url(images/sb.png);
+    background-image: url(../images/sb.png);
     background-size:cover;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(143, 143, 143, 0.486);
@@ -306,7 +305,7 @@ body{
     height: 550px;
     width: 50%;
     margin-top: 30px;
-    background-image: url(images/b2b.png);
+    background-image: url(../images/b2b.png);
     background-size:cover;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(143, 143, 143, 0.486);
