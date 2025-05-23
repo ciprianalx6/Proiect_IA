@@ -130,17 +130,27 @@ body{
     border-radius: 25px;
     
 }
+.rez-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.rez-col{
+    display: flex;
+    flex-direction: column;
+}
 
 .header-rez{
     font-size: 50px;
 }
+
 .img{
-    width: 450px;
-    height: 300px;
+    margin-top: 30px;
+    max-width: 350px;
+    height: auto;
     display: block;
-    position: absolute;
     left:1300px;
-    top:150px;
+    top:150px;  
     border-radius: 25px;
     box-shadow: 5px 5px 10px lightblue;
     
@@ -151,8 +161,9 @@ body{
     width: 1000px;
 }
 #div-caracteristici{
+    align-items: center;
     align-content:center;
-    margin-top:100px;
+    margin-top:0px;
     font-size:20px;
 
 }
@@ -164,12 +175,12 @@ body{
 #divmare{
     display: flex;
     justify-content: center;
+    align-items: stretch;
     gap:100px;
     padding-top: 10px;
 }
 .subdiv-carac{
     width:400px;
-    
     padding: 20px 40px;
     display: inline-block;
     background-color: rgb(247,247,247);
@@ -224,14 +235,12 @@ body{
 }
 #div-rezultate2{
     background-color: #e8e8e8;
-    margin-top: 50px;
 }
 
 #img2{
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: auto;
     display: block;
-    position: absolute;
     left:1300px;
     top:2250px;
     border-radius: 25px;
@@ -257,6 +266,8 @@ body{
 }
 #container-tip1{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 50px;
     
 }
@@ -280,9 +291,8 @@ body{
 
 #img3{
     width: 450px;
-    height: 300px;
+    height: auto;
     display: block;
-    position: absolute;
     left:1300px;
     top:4150px;
     border-radius: 25px;
@@ -297,10 +307,19 @@ body{
     margin-bottom: 50px;
 
 }
-.container-tipuri3{
+.container-tipuri3 {
     display: flex;
-    
+    flex-direction: column;
+    justify-content: space-between;
     gap: 30px;
+}
+
+.container-tipuri-primele,
+.container-tipuri-primele1 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px; 
 }
 #k11{
     display: inline-block;
@@ -320,10 +339,9 @@ body{
     font-size: 30px;
 }
 #img4{
-     width: 450px;
-    height: 300px;
+     width: 350px;
+    height: auto;
     display: block;
-    position: absolute;
     left:1300px;
     top:5350px;
     border-radius: 25px;
@@ -422,10 +440,31 @@ display: none;
 hr {
     border: 1px solid #333;
     height: 0;
-    width: 450px;
+    margin: 20px 0;
+}
+.img, #img2, #img3, #img4 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 960px)  {
+    hr {
+    border: 1px solid #333;
+    height: 0;
+    width: 100%;
+}
+    .rez-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
      #butoane-grup{
         display: none;
         flex-direction: column;
@@ -564,8 +603,8 @@ border-radius: 25px;
     }
     #img2{
         position:inherit;
-        width: 45%;
-        height:45%;
+        width: 200px;
+        height:auto;
         
     }
     #tip1{
@@ -584,9 +623,8 @@ border-radius: 25px;
     }
     #img3{
         position:inherit;
-        
-        width: 100%;
-        height:100%;
+        width: 75%;
+        height:auto;
     }
     .container-tipuri3{
         display: block;
@@ -660,5 +698,28 @@ border-radius: 25px;
         font-weight: 1000;
     
     }
-    
+    .p{
+        font-size:20px;
+    }
+     .container-tipuri-primele,
+    .container-tipuri-primele1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        max-width: 100%;
+    }
+    #k11 {
+        width: 95%;
+        min-width: unset;
+        font-size: 18px;
+        padding: 18px 10px;
+    }
+    #header-tipuri3 {
+        font-size: 32px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .header-rez{
+        font-size: 30px;
+    }
 }
