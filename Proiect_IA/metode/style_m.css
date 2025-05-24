@@ -23,45 +23,18 @@ body{
     align-items: center;
     justify-content: center;
 }
- #xx{
+#xx{
     display: none;
-    position: absolute;
-    right:  10px;
-    top:-2px;
-    display: block;
-    width: 143px;
-    height: 350px;
-    border-radius: 25px;
-    transition: 0.5s ease;
-    margin:2px;
+    
     
 }
 #imgx{
-    position: absolute;
-    right: 10px;
-    top: 5%;
     display: none;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    object-fit: cover;
 }
 #xx a {
-text-align: center;
-padding-bottom: 10px;
-padding-top: 10px;
-margin-top: 10px;
-margin-bottom: 10px;
-text-decoration: none;
-color: black;
+
 display: none;
-flex-direction: column;
-position: relative;
-right: -20px;
-top:80px;
-font-size: 14px;
-width: 100px;
-border-radius: 25px;
+
 
 }
 
@@ -347,6 +320,56 @@ border-radius: 25px;
     #imgx{
         display: block;
     }
+    #xx{
+    display: none;
+    position: absolute;
+    right:  10px;
+    top:-2px;
+    display: block;
+    width: 143px;
+    height: 350px;
+    border-radius: 25px;
+    transition: 0.5s ease;
+    margin:2px;
+    
+}
+#imgx{
+    position: absolute;
+    right: 10px;
+    top: 5%;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+    #xx a {
+text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-decoration: none;
+
+color: black;
+display: none;
+flex-direction: column;
+position: relative;
+right: -20px;
+top:80px;
+font-size: 14px;
+width: 100px;
+border-radius: 25px;
+
+}
+    #xx:hover {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top:-2px;
+        background-color: rgba(238, 238, 238, 0.8);
+        transform: 0.4s ;
+    }
     #xx:hover a{
         display: flex;
           justify-content:  center;
@@ -354,15 +377,7 @@ border-radius: 25px;
         border:1px solid red;
     }
     #xx a:hover{
-        background-color: rgba(204, 204, 204, 0.9);
-    }
-.sociale {
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        flex-wrap: wrap;
+        background-color: rgba(204, 204, 204, 0.4);
     }
     .sociale a {
         background-color: rgb(226, 219, 219);
