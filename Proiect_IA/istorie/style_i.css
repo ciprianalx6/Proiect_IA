@@ -239,6 +239,20 @@ border-radius: 25px;
     border-radius: 30px;
     object-fit: cover;
 }
+#xx{
+    display: none;
+    
+    
+}
+#imgx{
+    display: none;
+}
+#xx a {
+
+display: none;
+
+
+}
 
 @media screen and (max-width: 960px) {
      #butoane-grup{
