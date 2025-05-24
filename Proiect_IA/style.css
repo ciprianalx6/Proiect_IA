@@ -672,10 +672,7 @@ border-radius: 25px;
         padding: 10px 20px;
     }
 
-    #butoane-grup {
-        flex-direction: column;
-        gap: 20px;
-    }
+    
 
     .butoane {
         font-size: 16px;
