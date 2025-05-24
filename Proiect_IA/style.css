@@ -472,7 +472,13 @@ display: none;
 }
 
 @media screen and (max-width: 960px) {
-   
+   #butoane-grup{
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        top:33px;
+    }
    #xx{
     display: none;
     position: absolute;
