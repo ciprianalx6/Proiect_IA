@@ -1,283 +1,101 @@
 
 body{
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: rgb(247, 247, 247);
-    font-family:'Open Sans', sans-serif;
-    font-size: 16px;
+margin-left: 25px;
+margin-right: 25px;
+background-color: rgb(247, 247, 247);
+font-family:'Open Sans', sans-serif;
+font-size: 16px;
 }
-.text{
-    background-color:#e4e4e4 ;
-    border-radius: 30px;
-}
-.img-istorie{
-    width: 25%;
-    height: 25%;
-    border-radius: 30px;
-    object-fit: cover;
-}
-#p1-info{
-    display: flex;
-    flex-direction: column;
-    font-size: 35px;
-    color: black;
-    display: flex;
-    margin-bottom: 30px;
-}
-#ce{
-    font-size: 50px;
-       font-weight: bold;
-       margin-bottom: 20px;
-}
-#div-butoane {
-    display: flex;
-    align-items: center;
-}
-
-
-#container-fim {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.div-rez{
-    margin: 60px;
-}
-.fim {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-
-#butoane-grup {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    margin-left: auto;
-}
-#a,#b, #c, #d, #e, #f {
-    display: flex;
-    align-items: center;
-    margin-left: auto; 
-    gap: 40px;
-    border-radius: 25px;
-    border: 2px solid rgba(229,25,34,255);
-    width: 150px;
-    
-}
-.butoane {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    width: 150px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: rgb(247, 247, 247);
-
-    border-width: 2px;
-    border-style: solid; 
-    border-color: rgba(229, 25, 34, 1);
-    border-radius: 25px;
-    color: black;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-}
-
-.butoane:hover {
-    background-color: #dcdcdc;
-}
-
-
-.dropdown {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    border-radius: 15px;
-    min-width: 130px;
-    background-color: #f9f9f9;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
-    flex-direction: column;
-}
-
-
-.dropdown-content a {
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #000;
-    display: block;
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: flex;
-}
-
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-    border-radius: 15px;
-}
-
-
-.butoane:hover {
-    background-color: rgb(201, 197, 197);
-}
-
-#header-istorie{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: auto;
-}
-.header-istorie{
-    display: flex;
-    align-items: right;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: auto;
-}
-.header-istorie1{
-    margin-left:30px;
-    text-align: left;
-        font-size: 50px;
-       font-weight: bold;
-       margin-bottom: 20px;
-}
-#inceputuri{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 30px;
-    color: black;
-    display: flex;
-    margin-bottom: 30px;
-    text-align: left;
-}
-.introducere{
-    display: flex;
-    align-items: column;
-    justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 30px;
-    color: black;
-    display: flex;
-    margin-bottom: 30px;
-}
-.linie-istorie{
-    width: 0%;;
-}
-.jac{
-    width: 17%;
-    height: 17%;
-    border-radius: 30px;
-    object-fit: cover;
-}
-
-
 #header-footer{
-    font-size: 40px;
-    padding-bottom: 15px;
-    font-weight: 1000;
+font-size: 40px;
+padding-bottom: 15px;
+font-weight: 1000;
 
 }
 .sociale{
-    display: flex;
-    gap:20px;
-    
+display: flex;
+gap:20px;
+
 }
 .sociale a{
-    background-color: rgb(226, 219, 219);
-    padding: 1em;
-    border-radius: 50%;
-    height: 64px;
-    width: 64px;
-    box-sizing: border-box;
-    flex-shrink: 0;
-    display: grid;
-    place-items: center;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+background-color: rgb(226, 219, 219);
+padding: 1em;
+border-radius: 50%;
+height: 64px;
+width: 64px;
+box-sizing: border-box;
+flex-shrink: 0;
+display: grid;
+place-items: center;
+box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 }
 .sociale a svg{
-    height: 32px;
+height: 32px;
 }
 .sociale a::before{
-    content: attr(data-sociale);
-    position: absolute;
-    background-color: var(--accent-color);
-    color: white;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 100px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
-    transform: translateY(-30px) rotate(25deg);
-    opacity: 0;
-    transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
+content: attr(data-sociale);
+position: absolute;
+background-color: var(--accent-color);
+color: white;
+text-decoration: none;
+padding: 0.5em 1em;
+border-radius: 100px;
+box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+transform: translateY(-30px) rotate(25deg);
+opacity: 0;
+transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
 }
 .sociale a:hover{
-    background-color: var(--accent-color);
-    fill:white;
+background-color: var(--accent-color);
+fill:white;
 }
 .sociale a::after{
-    content: "";
-    position: absolute;
-    height: 0;
-    width: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 10px solid var(--accent-color);
-    transform: translateY(0) rotate(25deg);
-    opacity: 0;
-    transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
+content: "";
+position: absolute;
+height: 0;
+width: 0;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+border-top: 10px solid var(--accent-color);
+transform: translateY(0) rotate(25deg);
+opacity: 0;
+transition: 200ms cubic-bezier(.42, 0, .44, 1.68);
 }
 .sociale a:hover::before{
-    transform: translateY(-65px) rotate(0);
-    opacity: 1;
+transform: translateY(-65px) rotate(0);
+opacity: 1;
 }
 .sociale a:hover::after{
-    transform: translateY(-42px) rotate(0);
-    opacity: 1;
+transform: translateY(-42px) rotate(0);
+opacity: 1;
 }
 #div-contact{
-    margin-top: 50px;
+margin-top: 50px;
 
 }
 #p-contact{
-    font-size: 20px;
-    font-weight: 500;
+font-size: 20px;
+font-weight: 500;
 }
 #div-copyright{
-    position: absolute;
-    left:70%;
-    margin-top: -200px;
+position: absolute;
+left:70%;
+margin-top: -200px;
 }
 #header-final{
-    font-size: 30px;
-    font-weight: 750;
+font-size: 30px;
+font-weight: 750;
+}
+
+
+hr {
+border: 1px solid #333;
+height: 0;
+margin: 20px 0;
+}
+.text{
+background-color:#e4e4e4 ;
+border-radius: 30px;
 }
 #xx{
     display: none;
@@ -293,43 +111,209 @@ display: none;
 
 
 }
-
-
-@media screen and (max-width: 960px) {
-    .img-istorie {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    margin-top:10px;
-    object-fit: cover;
+.img-istorie{
+width: 25%;
+height: 25%;
+border-radius: 30px;
+object-fit: cover;
+}
+#p1-info{
+display: flex;
+flex-direction: column;
+font-size: 35px;
+color: black;
+display: flex;
+margin-bottom: 30px;
 }
 #ce{
-    text-align: center;
-    display: flex;
-    font-size: 25px;
-       font-weight: bold;
-       margin-bottom: 20px;
-       align-items: center;
-       justify-content: center;
+font-size: 50px;
+font-weight: bold;
+margin-bottom: 20px;
 }
-    #header-istorie {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    flex-direction: column;
-    font-size: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: auto;
+#div-butoane {
+display: flex;
+align-items: center;
 }
-#p1-info {
-    text-align: center;
-    font-size: 20px;
+
+
+#container-fim {
+display: flex;
+align-items: center;
+justify-content: center;
 }
-    
-    
-    #butoane-grup{
+
+.div-rez{
+margin: 60px;
+}
+.fim {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+
+#butoane-grup {
+display: flex;
+gap: 40px;
+align-items: center;
+margin-left: auto;
+}
+#a,#b, #c, #d, #e, #f {
+display: flex;
+align-items: center;
+margin-left: auto; 
+gap: 40px;
+border-radius: 25px;
+border: 2px solid rgba(229,25,34,255);
+width: 150px;
+
+}
+.butoane {
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 1px;
+padding-bottom: 1px;
+width: 150px;
+height: 40px;
+font-size: 20px;
+font-weight: 500;
+background-color: rgb(247, 247, 247);
+
+border-width: 2px;
+border-style: solid; 
+border-color: rgba(229, 25, 34, 1);
+border-radius: 25px;
+color: black;
+text-decoration: none;
+transition: all 0.3s ease 0s;
+}
+
+.butoane:hover {
+background-color: #dcdcdc;
+}
+
+
+.dropdown {
+position: relative;
+display: flex;
+flex-direction: column;
+}
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+border-radius: 15px;
+min-width: 130px;
+background-color: #f9f9f9;
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+z-index: 1;
+flex-direction: column;
+}
+
+
+.dropdown-content a {
+padding: 10px 15px;
+text-decoration: none;
+color: #000;
+display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+display: flex;
+}
+
+
+.dropdown-content a:hover {
+background-color: #f1f1f1;
+border-radius: 15px;
+}
+
+
+.butoane:hover {
+background-color: rgb(201, 197, 197);
+}
+
+#header-istorie{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+    font-size: px;
+    font-size: 75px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: auto;
+}
+.header-istorie{
+display: flex;
+align-items: right;
+justify-content: center;
+flex-direction: column;
+font-size: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: auto;
+}
+.header-istorie1{
+margin-left:30px;
+text-align: left;
+font-size: 50px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+#inceputuri{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 30px;
+margin-right: 30px;
+font-size: 30px;
+color: black;
+display: flex;
+margin-bottom: 30px;
+text-align: left;
+}
+.introducere{
+display: flex;
+align-items: column;
+justify-content: space-between;
+margin-left: 30px;
+margin-right: 30px;
+font-size: 30px;
+color: black;
+display: flex;
+margin-bottom: 30px;
+}
+.linie-istorie{
+width: 0%;;
+}
+.jac{
+width: 17%;
+height: 17%;
+border-radius: 30px;
+object-fit: cover;
+}
+
+@media screen and (max-width: 960px) {
+    hr {
+    border: 1px solid #333;
+    height: 0;
+    margin: 20px 0;
+}
+.img-istorie {
+width: 100%;
+height: 100%;
+border-radius: 20px;
+margin-top:10px;
+object-fit: cover;
+}
+ #butoane-grup{
         display: none;
         flex-direction: column;
         gap: 20px;
@@ -337,7 +321,7 @@ display: none;
         top:33px;
     }
     
-     
+    
     #xx{
     display: none;
     position: absolute;
@@ -397,26 +381,58 @@ border-radius: 25px;
     #xx a:hover{
         background-color: rgba(204, 204, 204, 0.4);
     }
+ .fim{
+        margin-top: 13px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+#ce{
+text-align: center;
+display: flex;
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 20px;
+align-items: center;
+justify-content: center;
+}
+#header-istorie {
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+flex-direction: column;
+font-size: 30px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: auto;
+}
+#p1-info {
+text-align: center;
+font-size: 25px;
+}
+
+
 .header-istorie1{
-    margin-left:0px;
-    font-size:50px;
-    text-align: center;
+font-size:50px;
+text-align: center;
 }
 .jac{
-    margin-top: 10px;
-    width: 50%;
-    height: 30%;
-    border-radius: 30px;
-    object-fit: cover;
+margin-top: 10px;
+width: 50%;
+height: 30%;
+border-radius: 30px;
+object-fit: cover;
 }
 #inceputuri {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-size: 22px;
-    }
-    
-    .butoane {
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-size: 25px;
+}
+
+   .butoane {
         width: 100%;
         font-size: 16px;
     }
@@ -471,3 +487,5 @@ border-radius: 25px;
     
     }
 }
+
+
