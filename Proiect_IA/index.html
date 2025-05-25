@@ -11,33 +11,36 @@
     </head>
     <body>
         <div id="div-butoane">
-        <a href="../index.html" id="container-fim" class="container-fim">
-            <img src="../images/fim.PNG" class="fim">
+        <a href="index.html" id="container-fim" class="container-fim">
+            <img src="images/fim.PNG" class="fim">
         </a>
         <div id="butoane-grup">
 
-            <a href="../index.html" class="butoane" id="a">Home</a>
-            <a href="../istorie/paginaistorie.html" class="butoane" id="b">Istorie</a>
+            <a href="index.html" class="butoane" id="a">Home</a>
+            <a href="istorie/paginaistorie.html" class="butoane" id="b">Istorie</a>
             <div class="dropdown">
-                <a href="../metode/paginametode.html" class="butoane" id="c">Metode</a>
-                
-            </div>
-            <div class="dropdown">
-                <a href="../rezultate/paginarezultate.html" class="butoane" id="d">Rezultate</a>
+                <a href="metode/paginametode.html" class="butoane" id="c">Metode</a>
                 <div class="dropdown-content">
-                    <a href="../rezultate/paginarezultate.html#img1">Interfețe Minim Invazive</a>
-                    <a href="../rezultate/paginarezultate.html#img2">Sisteme de Înregistrare neurală</a>
-                    <a href="../rezultate/paginarezultate.html#img3">Neuroproteze</a>
-                    <a href="../rezultate/paginarezultate.html#img4">Brain Stimulation for Movement Recovery</a>
+                    <a href="#">Deep-Brain Stimulation</a>
+                    <a href="#">Brain-Computer Interface</a>
                 </div>
             </div>
             <div class="dropdown">
-                <a href="../viitor/paginaviitor.html" class="butoane" id="e">Viitor</a>
+                <a href="rezultate/paginarezultate.html" class="butoane" id="d">Rezultate</a>
                 <div class="dropdown-content">
-                    <a href="../viitor/paginaviitor.html#div11">Optogenetică</a>
-                    <a href="../viitor/paginaviitor.html#div2">Crioelectronică</a>
-                    <a href="../viitor/paginaviitor.html#div3">Biologie Sintetică</a>
-                    <a href="../viitor/paginaviitor.html#div4">Brain-to-Brain Communication</a>
+                    <a href="rezultate/paginarezultate.html#img1">Interfețe Minim Invazive</a>
+                    <a href="rezultate/paginarezultate.html#img2">Sisteme de Înregistrare neurală</a>
+                    <a href="rezultate/paginarezultate.html#img3">Neuroproteze</a>
+                    <a href="rezultate/paginarezultate.html#img4">Brain Stimulation for Movement Recovery</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="viitor/paginaviitor.html" class="butoane" id="e">Viitor</a>
+                <div class="dropdown-content">
+                    <a href="viitor/paginaviitor.html#div11">Optogenetică</a>
+                    <a href="viitor/paginaviitor.html#div2">Crioelectronică</a>
+                    <a href="viitor/paginaviitor.html#div3">Biologie Sintetică</a>
+                    <a href="viitor/paginaviitor.html#div4">Brain-to-Brain Communication</a>
                 </div>
             </div>
             
@@ -45,22 +48,22 @@
     </div>
     
     <div id="xx">
-        <img src ="../images/nav-icon.svg" id="imgx">
-        <a href="../index.html">Home</a>
-        <a href="../istorie/paginaistorie.html">Istorie</a>
-        <a href="../metode/paginametode.html">Metode</a>
-        <a href="../rezultate/paginarezultate.html">Rezultate</a>
-        <a href="../viitor/paginaviitor.html">Viitor</a>
+        <img src ="images/nav-icon.svg" id="imgx">
+        <a href="index.html">Home</a>
+        <a href="istorie/paginaistorie.html">Istorie</a>
+        <a href="metode/paginametode.html">Metode</a>
+        <a href="rezultate/paginarezultate.html">Rezultate</a>
+        <a href="viitor/paginaviitor.html">Viitor</a>
     </div>
 
     <hr>
     <div id="div-home-page">
-        <h1 id="header-home-page">
+        <h1 id="header-home-page" class="slide-in-left">
             Ingineria Neurală și<br />
             Interfețe Creier-Computer
         </h1>
         <!--trebuie pusa o imagine sugestiva pe spate-->
-        <p id="p1">Reprezintă domeniul de dezvoltare al interfețelor neurale, cu scopul de a imbunătății comunicarea
+        <p id="p1" class="slide-in-left">Reprezintă domeniul de dezvoltare al interfețelor neurale, cu scopul de a imbunătății comunicarea
             dintre țesutul cerebral și o interfață neuronală.<br />
             Unul dintre principalele obiective ale ingineriei neurale este redobândirea abilitaților pierdute de
             indivizi cu tulburari neurologice.
@@ -68,10 +71,10 @@
     </div>
     <hr />
     <div id="div-istoric">
-        <img src="images/istorie.jpg" alt="istorie" id="img-istoric">
-        <div id="div-istoric-text">
-            <h1 id="header-istoric">Cum a apărut ingineria neurală?</h1>
-            <p id="p-istoric"> Explorarea ingineriei neurale și a efectelor curenților electrici asupra corpului uman
+        <img src="images/istorie.jpg" alt="istorie" id="img-istoric" class="slide-in-left">
+        <div id="div-istoric-text" class="slide-in-right">
+            <h1 id="header-istoric" >Cum a apărut ingineria neurală?</h1>
+            <p id="p-istoric" > Explorarea ingineriei neurale și a efectelor curenților electrici asupra corpului uman
                 dateaza din secolul al XVIII-lea,
                 când Volta a descoperit faptul că stimularea electrică în urechi producea senzații sonore.</p>
         </div>
@@ -80,18 +83,19 @@
     <hr />
     <h1 id="header-metode">Metode de Implementare</h1>
     <div id="div-metode" class="div-metode">
-
+<div class ="slide-in slide-in-left">
         <div class="div-DBS">
-            <h1 id="header1-DBS">Deep Brain Stimulation</h1>
+            <h1 id="header1-DBS" >Deep Brain Stimulation</h1>
             <h3 id="header2-DBS">(DBS)</h3>
-            <p id="p-DBS">DBS este o formă de terapie neurostimulatorie, în care un generator de impulsuri este
+            <p id="p-DBS" class="slide-in-left">DBS este o formă de terapie neurostimulatorie, în care un generator de impulsuri este
                 implantat de către un chirurg sub pielea de pe piept si conectat prin cabluri cu creierul, pentru a
                 trimite impulsuri electrice controlate.
                 Avantajul acestei metode este că nu trebuie conectată la o sursă externă de curent, permițând
                 pacientului să fie liber, având o oarecare independență.
             </p>
         </div>
-
+        </div>
+<div class="slide-in-right">
         <div class="div-BCI">
             <h1 id="header1-BCI">Brain-Computer Interface</h1>
             <h3 id="header2-BCI">(BCI)</h3>
@@ -102,10 +106,12 @@
                 tehnologia de laborator într-o realitate pentru oameni. </p>
         </div>
     </div>
+    </div>
     <hr />
     <div id=div-rezulate><!--AICI trebuie adaugate poze la fiecare-->
         <h1 id="header1-rezultate">Rezultate</h1>
         <div class="div-rez" id="div1-rezultate">
+            <div class ='slide-in-left'>
             <h1 class="headerst">Interfețe neurale minim invazive</h1>
             <p class="p-st">Interfețele neuronale minim invazive sunt tehnologii care permit medicilor și cercetătorilor
                 să acceseze, să monitorizeze sau să interacționeze cu creierul și sistemul nervos fără a fi nevoie de
@@ -115,7 +121,9 @@
                 ultrasunetelor - pentru a ajunge la creier cu mult mai puțin risc și timp de recuperare.
             </p>
         </div>
+        </div>
         <hr />
+        <div class="slide-in-right">
         <div class="div-rez" id="div2-rezultate">
             <h1 class="headerdr">Sisteme de Înregistrare neurală</h1>
             <p class="p-dr">Sistemele de înregistrare neuronală sunt tehnologii care ascultă semnalele electrice ale
@@ -124,22 +132,28 @@
                 Aceste sisteme folosesc electrozi mici (senzori) plasați fie în interiorul, fie în apropierea creierului
                 pentru a capta acele semnale în timp real.
             </p>
+            </div>
         </div>
         <hr />
+        <div class="slide-in-left">
         <div class="div-rez" id="div3-rezultate">
             <h1 class="headerst" id>Neuroproteze</h1>
             <p class="p-st">Neuroprotezele sunt membre artificiale avansate sau dispozitive care se conectează direct la
                 sistemul nervos. Ele nu se mișcă doar ca o proteză obișnuită, ci sunt controlate de semnalele creierului
                 sau nervoase.</p>
         </div>
+        </div>
+        </div>  
         <hr />
+        <div class="slide-in-right">
         <div class="div-rez" id="div4-rezultate">
             <h1 class="headerdr">Brain Stimulation for Movement Recovery</h1>
             <p class="p-dr">Aceasta este o tehnică în care medicii folosesc stimularea electrică pentru a activa anumite
                 părți ale creierului implicate în mișcare. Scopul este de a ajuta oamenii să-și recapete controlul
                 asupra mușchilor, mai ales după leziuni grave, cum ar fi afectarea măduvei spinării sau accident
                 vascular cerebral.</p>
-
+        </div>
+        </div>
         </div>
         <hr />
 
@@ -148,16 +162,16 @@
         <h1 id="header1-viitor">Viitorul Tehnologiilor</h1>
         <div class="grid">
             <div class="cell" id="cell1">
-                <a class="p-viitor" href="viitor/paginaviitor.html#div11"><b>Mai multe &rarr;</b></a>
+                <a class="p-viitor" href="viitor/paginaviitor.html"><b>Mai multe &rarr;</b></a>
             </div>
             <div class="cell" id="cell2">
-                <a class="p-viitor" href="viitor/paginaviitor.html#div2"><b>Mai multe &rarr;</b></a>
+                <a class="p-viitor" href="viitor/paginaviitor.html"><b>Mai multe &rarr;</b></a>
             </div>
             <div class="cell" id="cell3">
-                <a class="p-viitor" href="viitor/paginaviitor.html#div3"><b>Mai multe &rarr;</b></a>
+                <a class="p-viitor" href="viitor/paginaviitor.html"><b>Mai multe &rarr;</b></a>
             </div>
             <div class="cell" id="cell4">
-                <a class="p-viitor" href="viitor/paginaviitor.html#div4"><b>Mai multe &rarr;</b></a>
+                <a class="p-viitor" href="viitor/paginaviitor.html"><b>Mai multe &rarr;</b></a>
             </div>
         </div>
     </div>

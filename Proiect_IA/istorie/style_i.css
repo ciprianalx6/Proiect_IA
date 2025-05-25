@@ -276,7 +276,35 @@ body{
         text-align: center;
     }
 }
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
 
+.slide-in-right {
+    animation: slideInRight 1s ease-out;
+    opacity: 1;
+}
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-left {
+    animation: slideInLeft 1s ease-out;
+}
 
 
 
