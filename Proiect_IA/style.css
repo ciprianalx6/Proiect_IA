@@ -595,7 +595,11 @@ border-radius: 25px;
         justify-content: center;
         
     }
-
+#header-metode{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
 
   .div-rez{
 
@@ -627,7 +631,7 @@ border-radius: 25px;
     }
 
     #p-DBS, #p-BCI {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
@@ -647,7 +651,18 @@ border-radius: 25px;
         font-size: 16px;
         width: 100%;
     }
-
+.div-metode .slide-in-left  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-metode .slide-in-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .headerdr{
         text-align: center;
         font-size: 30px;
