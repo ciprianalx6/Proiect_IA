@@ -480,6 +480,7 @@ display: none;
         top:33px;
     }
    #xx{
+    z-index:100;
     display: none;
     position: absolute;
     right:  10px;
